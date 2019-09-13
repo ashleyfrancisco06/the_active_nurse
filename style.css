@@ -1,0 +1,108 @@
+*{
+	margin: 0 auto;
+}
+#home_page{
+	width:100vw;
+	height:100vh;
+	border:10px red;
+}
+.header{
+	text-align: center;
+	width:100vw;
+	/*position: fixed;*/
+	
+
+	
+}
+.navigation li{
+	text-decoration: none;
+	display: inline-flex;
+	margin: 0 10px 0 10px;
+  	height: 33px;
+  	font-family: Avenir;
+	font-size: 24px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-transform: uppercase;
+}
+#logo{
+	width: 550px;
+   height: 190px;
+}
+#carousel{
+	margin-top:50px;
+	border:2px black;
+	/*width:1200px;*/
+	height:400px;
+	background-color:#EEF1EF;
+
+	
+}
+#active-nurse{
+	display: flex;
+	padding-top:20px;
+	border: 2px black;
+	width:1200px;
+}
+.active-text{
+	width:450px;
+	height:300px;
+
+}
+.active-text h1{
+  font-family: Avenir;
+  font-size: 28px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: var(--black-two);
+
+}
+.active-text h2{
+  font-family: Avenir;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: red;
+}
+.active-text p{
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: var(--black-two);
+}
+.nurse-post-link{
+	  width: 310px;
+  height: 30px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  font-family: Avenir;
+  font-size: 22px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: red;
+  text-decoration: none;
+}
+#active-nurse-img{
+	width:400px;
+	height:350px;
+	border:black;
+}
